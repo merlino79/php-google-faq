@@ -9,6 +9,12 @@
     margin: 0 auto;
 }
 
+.ac-container {
+    text-align: justify;
+    width: 64%;
+    margin: 0 auto;
+}
+
 
 /* header */
 
@@ -103,8 +109,26 @@ a.last-l {
 /* main */
 
 main {
-    height: 700px;
+    height: 100%;
+    margin-top: 30px;
 }
+
+main ul {
+    list-style: none;
+}
+
+main li {
+    margin-bottom: 30px;
+}
+
+.domanda h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #3C4043;
+}
+
+
+/* fine main */
 
 
 /* footer */
