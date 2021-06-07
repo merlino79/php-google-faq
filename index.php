@@ -48,16 +48,17 @@
     </main>
 
     <footer>
-       <div class="link">
+      <div class="container">
+         <div class="link">
           <ul>
-            <li><a href="#">introduzione</a></li>
-            <li><a href="#">norme sulla privacy</a></li>
-            <li><a href="#">termini di servizio</a></li>
-            <li><a href="#">tecnologie</a></li>
-            <li class="" ><a href="#">domande frequenti</a></li>
+            <li><a href="#">google</a></li>
+            <li><a href="#">tutto su google</a></li>
+            
+            <li><a href="#">privacy</a></li>
+            <li class="" ><a href="#">termini</a></li>
           </ul>
-    </div>
-    <div class="footer-dx">
+       </div>
+      <div class="footer-dx">
        <select>
 
             <option value=""><srong>italiano</<strong></option>
@@ -70,9 +71,11 @@
 
 
 
-    </select>
-
-    </div>
+       </select>
+       </div>
+      </div>
+      
+    
   
       
      
