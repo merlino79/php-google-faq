@@ -154,6 +154,17 @@ footer .container {
     font-size: 15px;
 }
 
-footer-dx {
-    width: 20%;
+.footer-dx {
+    width: 25%;
+    display: flex;
+}
+
+.footer-dx img {
+    width: 30px;
+    height: 30px;
+}
+
+select {
+    width: 40%;
+    height: 30px;
 }

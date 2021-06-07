@@ -114,6 +114,9 @@
           </ul>
        </div>
       <div class="footer-dx">
+        <div class="div">
+          <img src="./assets/img/ICON-01.png" alt="">
+        </div>
        <select>
 
             <option value=""><srong>italiano</<strong></option>
