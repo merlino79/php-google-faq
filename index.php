@@ -43,7 +43,14 @@
 
     <main>
       <div class="container">
-        ale
+        
+      <?php
+      $nome = 'sem';
+      echo $nome
+      ?>
+
+
+
       </div>
     </main>
 
