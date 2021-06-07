@@ -27,16 +27,55 @@
        
     </div>
     <div class="header-bottom">
-    pem
+    <div class="link">
+      <ul>
+        <li><a href="#">introduzione</a></li>
+        <li><a href="#">norme sulla privacy</a></li>
+        <li><a href="#">termini di servizio</a></li>
+        <li><a href="#">tecnologie</a></li>
+        <li class="last" ><a class="last-l" href="#">domande frequenti</a></li>
+      </ul>
+    </div>
     </div>
 
 
     </header>
 
     <main>
+      <div class="container">
+        ale
+      </div>
     </main>
 
     <footer>
+       <div class="link">
+          <ul>
+            <li><a href="#">introduzione</a></li>
+            <li><a href="#">norme sulla privacy</a></li>
+            <li><a href="#">termini di servizio</a></li>
+            <li><a href="#">tecnologie</a></li>
+            <li class="" ><a href="#">domande frequenti</a></li>
+          </ul>
+    </div>
+    <div class="footer-dx">
+       <select>
+
+            <option value=""><srong>italiano</<strong></option>
+            <option value=""><srong>francese</<strong></option>
+            <option value=""><srong>spagnolo</<strong></option>
+            <option value=""><srong>inglese</<strong></option>
+            <option value=""><srong>tedesco</<strong></option>
+            <option value=""><srong>cinese</<strong></option>
+            <option value=""><srong>giapponese</<strong></option>
+
+
+
+    </select>
+
+    </div>
+  
+      
+     
     </footer>
 
 </body>
