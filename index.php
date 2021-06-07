@@ -9,6 +9,21 @@
   <title>php-google-fack</title>
 </head>
 <body>
+
+ <?php
+  $faq = [
+    [
+      'domanda' => 'ale',
+      'risposta' => 'ciancio',
+    ],
+    [
+      'domanda' => 'marco',
+      'risposta' => 'ciancio',
+    ],
+  ]
+ ?>
+
+
     <header>
     <div class="header-top">
        <div class="logo-img">
@@ -44,11 +59,19 @@
     <main>
       <div class="container">
         
-      <?php
-      $nome = 'sem';
-      echo $nome
-      ?>
+      
+      <ul>
+        <?php foreach ($faq as $question) {?>
+        <li>
+          <?php echo $question['domanda'] ?>
+        </li>
+        <li>
+          <?php echo $question['risposta'] ?>
+        </li>
 
+        <?php } ?>
+      </ul>
+     
 
 
       </div>
