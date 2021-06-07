@@ -24,11 +24,11 @@
         Quando cerchi un nome, potresti trovare una notifica in cui viene spiegato che i risultati potrebbero essere stati modificati nel rispetto delle leggi europee per la protezione dei dati. Mostriamo questa notifica agli utenti europei quando cercano la maggior parte dei nomi, non soltanto le pagine che sono state soggette a una rimozione.",
     ],
     [
-      'domanda' => '',
+      'domanda' => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
       'risposta' => "Quando cerchi un nome, potresti trovare una notifica in cui viene spiegato che i risultati potrebbero essere stati modificati nel rispetto delle leggi europee per la protezione dei dati. Mostriamo questa notifica agli utenti europei quando cercano la maggior parte dei nomi, non soltanto le pagine che sono state soggette a una rimozione.",
     ],
     [
-      'domanda' => '',
+      'domanda' => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
       'risposta' => "Quando cerchi un nome, potresti trovare una notifica in cui viene spiegato che i risultati potrebbero essere stati modificati nel rispetto delle leggi europee per la protezione dei dati. Mostriamo questa notifica agli utenti europei quando cercano la maggior parte dei nomi, non soltanto le pagine che sono state soggette a una rimozione.",
     ],
   ]
@@ -69,23 +69,22 @@
 
     <main>
       <div class="ac-container">
-       <div class="domanda">
-        <h3>
-          <?php foreach ($faq as $question) {?>
-            <?php echo $question['domanda'] ?>
-
-          <?php } ?> 
-        </h3>
-       </div>
+       
 
        <div class="risposta">
           <ul>
-        <?php foreach ($faq as $question) {?>
-         
-       
-        <li>
-          <?php echo $question['risposta'] ?>
-        </li>
+          <?php foreach ($faq as $question) {?>
+
+          <li>
+            <h3>
+              <?php echo $question['domanda'] ?>
+              </h3>
+          </li>
+          <li>
+            <h5>
+              <?php echo $question['risposta'] ?>
+            </h5>
+          </li>
 
         <?php } ?>
       </ul>
